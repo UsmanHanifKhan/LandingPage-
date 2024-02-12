@@ -1,0 +1,25 @@
+.section {
+    background-image: url("../images/whosSATd31.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+    height: 100vh;
+}
+
+.Section_text{
+    font-size: 10px;
+}
+@media screen and (min-width: 300px) and (max-width: 767px) {
+    .section {
+      order: 2; /* Change the order to move it below Section2 and Section3 */
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    
+    .Section_div{
+        margin-top: 15rem;
+        width: 50%;
+    }
+  }
+

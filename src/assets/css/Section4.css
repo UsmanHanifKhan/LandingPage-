@@ -1,0 +1,25 @@
+.section4 {
+    background-image: url("../images/section4.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 15rem;
+    width: 100%;
+    height: 200vh;
+}
+
+.section_Container{
+    margin-top: 30rem;
+}
+@media screen and (min-width: 300px) and (max-width: 767px) {
+    .section4 {
+        background: none;
+    }
+  
+.section_Container{
+    padding-top: 30rem;
+}
+.section4_div{
+    display: flex;
+    flex-direction: column;
+}  
+  }
